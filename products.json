@@ -1,0 +1,7 @@
+{
+  "categories": [
+    { "id": "home", "name": "Home" },
+    { "id": "gadgets", "name": "Gadgets" }
+  ],
+  "products": []
+}

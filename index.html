@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | Dropship Store</title>
+<meta name="description" content="Shop our catalog.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announce" id="announce">Store under construction. Checkout not yet enabled.</div>
+<header class="site-header">
+  <a class="logo" href="index.html">Dropship Store</a>
+  <nav class="main-nav">
+    <a href="index.html#shop">Shop</a>
+    <a href="index.html#categories">Categories</a>
+    <a href="about.html">Our Story</a>
+    <a href="policies.html">Shipping &amp; Returns</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="utils"><span id="cart-count" class="cart-count">Cart (0)</span></div>
+</header>
+
+<section class="hero">
+  <h1>Shop the catalog</h1>
+  <p>Curated products. Clear shipping times. Simple returns.</p>
+  <a class="btn" href="#shop">Browse products</a>
+</section>
+
+<section class="tiles" id="categories" aria-label="Categories"></section>
+
+<section id="shop" class="shop">
+  <h2>New arrivals</h2>
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="empty" hidden>No products published yet.</p>
+</section>
+
+<footer class="site-footer">
+  <div>
+    <strong>Info</strong>
+    <a href="about.html">About Us</a>
+    <a href="policies.html">Shipping &amp; Returns</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <p>&copy; <span id="year"></span> Dropship Store</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
